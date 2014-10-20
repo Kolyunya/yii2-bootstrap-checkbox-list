@@ -20,7 +20,6 @@ class CheckboxList extends InputWidget
                 'model' => $this->model,
                 'attribute' => $this->attribute,
                 'items' => $this->items,
-                'type' => $this->type,
             ]
         );
     }
