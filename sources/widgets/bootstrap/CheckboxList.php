@@ -7,7 +7,9 @@ use yii\widgets\InputWidget;
 class CheckboxList extends InputWidget
 {
 
-    public $items = [];
+    public $items = array();
+
+    public $type = 'primary';
 
     public function run()
     {
@@ -18,6 +20,7 @@ class CheckboxList extends InputWidget
                 'model' => $this->model,
                 'attribute' => $this->attribute,
                 'items' => $this->items,
+                'type' => $this->type,
             ]
         );
     }

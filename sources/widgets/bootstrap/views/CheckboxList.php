@@ -20,8 +20,8 @@ echo \yii\helpers\Html::activeCheckboxList
                     'container' => false,
                     'labelOptions' =>
                     [
-                        'class' => $checked ? 'btn btn-primary active'
-                                            : 'btn btn-primary',
+                        'class' => $checked ? "btn btn-$type active"
+                                            : "btn btn-$type",
                     ],
                 ]
             );
