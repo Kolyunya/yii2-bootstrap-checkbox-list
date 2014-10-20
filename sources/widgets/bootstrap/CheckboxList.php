@@ -11,6 +11,8 @@ class CheckboxList extends InputWidget
 
     public $type = 'primary';
 
+    public $size = 'default';
+
     public function run()
     {
         return $this->render
