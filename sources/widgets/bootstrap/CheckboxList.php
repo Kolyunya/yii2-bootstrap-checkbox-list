@@ -15,8 +15,7 @@ class CheckboxList extends InputWidget
 
     public function run()
     {
-        return $this->render
-        (
+        return $this->render(
             'CheckboxList',
             [
                 'model' => $this->model,
@@ -25,5 +24,4 @@ class CheckboxList extends InputWidget
             ]
         );
     }
-
 }
